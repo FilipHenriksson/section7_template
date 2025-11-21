@@ -47,7 +47,7 @@ class Frontier_Explorer(Node):
 		unknown_mask = # TODO use np.where to find unknown mask which is indicated by the value -1
 		unoccupied_mask = # TODO use np.where to find unknown mask which is indicated by values in range [0, 0.5)
 
-        kernel = np.ones((window_size, window_size)) / window_size**2
+        kernel = # TODO define the kernel
         occupied=# TODO 2d convolution of mask (use convolve2d) using kernel and mode='same'
         unoccupied=# TODO 2d convolution of mask (use convolve2d) using kernel and mode='same'
         unknown= # TODO 2d convolution of mask (use convolve2d) using kernel and mode='same'
